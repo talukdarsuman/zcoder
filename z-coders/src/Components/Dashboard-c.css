@@ -1,0 +1,40 @@
+.dashboard{
+    margin: 10px 100px;
+    width: 80%;
+    height: 45vh;
+    margin-left: 10%;
+}
+.dash{
+    font-size: 2.4rem;
+    justify-content: center;
+    display: flex;
+    color: #0ea4afb9;
+    margin-bottom: 15px;
+}
+.dash_section_01{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+}
+.dash_first{
+    font-size: 1.3rem;
+}
+.dash_second{
+    margin-top: 85px;
+    font-size: 1.3rem;
+}
+.dashboard_design{
+    padding: 17px 5px;
+    background-color: rgba(16, 16, 100, 0.484);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-image: linear-gradient(
+        90deg,
+        rgba(255,255,255,.3),
+        rgba(0,0,0,0.1)
+    );
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
